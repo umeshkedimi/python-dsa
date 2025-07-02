@@ -16,6 +16,19 @@ class LinkedList:
             print(current_node.value)
             current_node = current_node.next
 
-my_linked_list = LinkedList(5)
+    def append(self, value):
+        new_node = Node(value)
+        if not self.head:
+            self.head = new_node
+            self.tail = new_node
+        else:
+            self.tail.next = new_node
+            self.tail = new_node
+        self.length += 1
 
-print(my_linked_list.head.value)
+my_linked_list = LinkedList(5)
+my_linked_list.append(10)
+my_linked_list.append(15)
+
+# print(my_linked_list.tail.next)
+my_linked_list.print_list()
