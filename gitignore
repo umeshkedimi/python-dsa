@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-arg.txt
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Editors and IDEs
+.idea/  # IntelliJ IDEA / PyCharm
+*.iml
+.vscode/ # VS Code
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# OS generated files
+.Trashes
+ehthumbs.db
+System Volume Information/
+
+# Miscellaneous
+*.log
+*.sqlite3
+*.db
